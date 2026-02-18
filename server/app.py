@@ -1,5 +1,7 @@
 from flask import Flask
 from flask_migrate import Migrate
+from server.models import Customer, Item, Review
+
 
 from models import db
 
